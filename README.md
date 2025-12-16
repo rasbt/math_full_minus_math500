@@ -12,6 +12,8 @@ language:
 This dataset is derived from the original MATH dataset by Hendrycks et al.
 ([qwedsacf/competition_math](https://huggingface.co/datasets/qwedsacf/competition_math)) with all problems from the MATH-500 benchmark set removed.
 
+You can also find this dataset on the Hugging Face Hub at [rasbt/math_full_minus_math500](https://huggingface.co/datasets/rasbt/math_full_minus_math500/tree/main)
+
 &nbsp;
 ## Construction
 
@@ -41,7 +43,7 @@ Evaluation should be performed on MATH-500, which is excluded.
 &nbsp;
 ## JSON Usage
 
-```
+```python
 import json
 import requests
 from pathlib import Path
